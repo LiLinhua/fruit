@@ -1,0 +1,124 @@
+/*中部内容样式*/
+#show_center{
+	width: 100%;
+	height: auto;
+}
+.goods_show_div ul{
+	padding:0;
+	margin:0;
+	width:100%;
+	height:auto;
+	list-style:none;
+	margin-top:20px;	
+}
+.goods_show_div ul li{
+	
+	float:left;	
+}
+.goods_show_div{
+	width: 100%;
+	height: auto;
+}
+.show_row_style{
+	width: 100%;
+	height: 270px;
+	margin-top: 1.3%;
+}
+.show_style{
+	width: 320px;
+	height: 270px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	border: yellow 1px solid;
+	box-shadow: 0 0 10px #000000;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.show_style img{
+	width: 320px;
+	height: 270px;
+	border-radius: 10px;
+}
+.show_style:hover img{
+	width: 340px;
+	height: 290px;
+	transition: all 500ms linear 0;
+}
+.hidden_block{
+	width: 100%;
+	height: 30%;
+	opacity: 0.8;
+	transition: all 500ms linear 0;
+	text-align: center;
+}
+.hidden_block .title{
+	width: 100%;
+	height: 70%;
+	font-size: 1.0em;
+}
+.hidden_block .price{
+	width: 30%;
+	height: 40%;
+	font-size: 1.5em;
+	font-weight: 800;
+	float: left;
+	color: red;	
+	line-height: 100%;
+}
+.hidden_block .danwei{
+	width: 30%;
+	height: auto;
+	float: left;
+	font-size: 1.1em;
+	font-weight: 400;
+	color: white;
+	margin-bottom: -30%;	
+}
+.show_style:hover .hidden_block{
+	margin-top: -55%;
+	color: #FFFFFF;
+	font-weight: 200;
+	
+    /*background:rgba(32, 185, 7, 0.9) none repeat scroll 0 0 !important;
+	filter:Alpha(opacity=90);
+	background:#20b907;*/
+	
+	 background:rgba(0, 0, 0, 0.9) none repeat scroll 0 0 !important;
+	filter:Alpha(opacity=90);
+	background:#000000;
+}
+#paging{
+	width: 100%;
+	height: 50px;
+	margin-top: 1.5%;
+	text-align: center;
+	clear:both;
+}
+#paging ul{
+	width:100%;
+	height:50px;
+	list-style: none;
+	text-align: center;
+}
+#paging ul li{
+	float: left;	
+}
+#paging ul li input{
+	width: 90px;
+	height: 50px;
+	border-color: #34A637;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	color: #34A637;
+}
+#paging ul li input:hover{
+	border: 2px red solid;	
+}
+#paging ul li img:hover{
+	opacity: 0.7;
+	cursor: pointer;	
+}
+}
+/*中部内容样式结束*/

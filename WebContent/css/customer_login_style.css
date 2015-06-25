@@ -1,0 +1,33 @@
+#p
+{
+	text-align:center;
+	color:#060;
+	font-size:30px;
+	text-shadow:#063 5px 5px 5px;
+}
+#login
+{
+	margin:10px;
+	padding:200px;
+	border:1px solid #0F6;
+	height:50px;
+	width:300px;
+	background-repeat:no-repeat;
+	background-image:url(http://img170.poco.cn/mypoco/myphoto/20121031/13/65713495201210311303002502262007526_002_640.jpg);
+	background-size:702px 452px;
+	margin-left:auto; margin-right:auto; 
+}
+#login1
+{
+	width:250px;
+	height:75px;
+	border-color:#060;
+	margin-right:auto;
+	margin-left:240px;
+}
+#login1 a{
+	text-decoration: none;
+	color: blue;
+	font-weight: 400;
+}
+

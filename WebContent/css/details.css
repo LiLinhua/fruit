@@ -1,0 +1,383 @@
+#details_center{
+	width: 100%;
+	height: 1200px;
+	margin-top: 2%;
+}
+#details{
+	width: 100%;
+	height: 75%;
+}
+
+
+
+/*鏀惧ぇ闀滄ā鍧楀紑濮�*/
+#details_rol_2{
+	width: 50%;
+	height: 100%;
+	float: right;
+	margin:0 1% 0 1% ;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #000000;
+}
+.big_mirro{
+	width: 100%;
+	height: 65%;
+	overflow: hidden;
+	border-radius: 10px 10px 0 0;
+}
+.big_mirro #details_small_pic{
+	width: 100%;
+	height: 100%;
+}
+.zoom_do{
+	width: 100%;
+	height: 30%;
+	margin-top: 0%;
+	padding: 2%;
+	/*background-color: #E4E4E4;*/
+	border-bottom: solid #CCCCCC 2px;
+	border-top: solid #CCCCCC 2px;
+}
+.zoom_do ul{
+	width: 100%;
+	height: 60%;
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.zoom_do ul li{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.zoom_do ul li img{
+	width: 100%;
+	height: 100%;	
+	cursor: pointer;
+}
+.zoom_do ul li img:hover{
+	width: 100%;
+	height: 100%;	
+	cursor: pointer;
+	
+	border: red 2px solid;
+}
+.before_next{
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+.before_next img:hover{
+	opacity: 0.7;
+}
+#loginCanBuy{
+	text-align:center;
+	font-size:2em;
+	color:red;
+	font-weight:800;	
+}
+/*鏀惧ぇ闀滄ā鍧楃粨鏉�*/
+
+
+
+
+	/*璐拱鎿嶄綔妯″潡寮�濮�*/
+.details_show2{
+	width: 24%;
+	height: 100%;
+	float: right;
+	padding-top: -5%;	
+}
+.details_show2 .details_rol_11{
+	width: 100%;
+	height: 49%;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 0 10px #000000;
+	padding: 2%;
+	margin-bottom: 5%;
+	
+}
+.details_show2 .details_rol_12{
+	width: 100%;
+	height: 49%;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0 0 10px #000000;
+	padding: 2%;
+}
+
+
+.buy_do_goods_brief{
+	width: 100%;
+	height: 35%;
+	padding: 0;
+}
+.buy_do_goods_brief h3{
+	width: 100%;
+	height: 30%;
+	border-bottom: #7B7B7B dashed 1px;
+	margin: 0;
+}
+.buy_do_goods_brief p{
+	width: 100%;
+	height: 70%;
+	border-bottom: #7B7B7B dashed 1px;
+	margin: 0;
+}
+.goods_buy_info{
+	width: 100%;
+	height: 55%;
+}
+.goods_buy_info ul{
+	width: 100%;
+	height: 80%;
+	padding: 0;
+	list-style: none;
+}
+.goods_buy_info ul li{
+	width: 100%;
+	height: 25%;
+	border-bottom: 1px dashed #7B7B7B;
+}
+.goods_buy_info form{
+	width: 100%;
+	height: 100%;
+}
+
+.buy_tips{
+	width: 10%;
+	height: 100%;
+	font-size: 1.2em;
+	color: #737373;
+}
+.yen{
+	color: red;;
+	font-weight: 600;
+}
+.goods_each_price{
+	font-size: 2em;
+	color: red;
+	font-weight: 600;
+	font-family: "浠垮畫";
+}
+.unit{
+	color: #737373;
+}
+#goods_buy_num{
+	margin-top: 3%;
+	border-bottom: 1px dashed #7B7B7B;
+	
+}
+.buy_num{
+	width: 20%;
+	height: 70%;
+	border: 2px solid #737373;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #000000;
+	font-size: 20px;
+	color: red;
+}
+.buy_num:hover{
+	border: 2px solid red;
+	box-shadow: 0 0 5px red;
+}
+.buy_num:focus{
+	border: 2px solid red;
+	box-shadow: 0 0 5px red;
+}
+.buy_submit{
+	width: 30%;
+	height: 15%;
+	font-size: 1.2em;
+	margin-left: 12%;
+	border-radius: 10px;
+	border: 1px #FFFFFF solid;
+	box-shadow: 0 0 5px #000000;
+	transition: all 300ms linear 0; 
+	margin-top: 8%;
+	opacity: 0.8;
+	background: -webkit-gradient(linear,left top,left bottom,from(#FF0000),to(pink)) ;
+}
+.buy_submit:hover{
+	box-shadow: 0 0 12px #000000;
+	opacity: 1;
+	font-weight: 800;
+	}
+#myForm #addCart{
+	width: 30%;
+	height: 15%;
+	font-size: 1.2em;
+	margin-left: 12%;
+	border-radius: 10px;
+	border: 1px #FFFFFF solid;
+	box-shadow: 0 0 5px #000000;
+	transition: all 300ms linear 0; 
+	margin-top: 8%;
+	opacity: 0.8;
+	background: -webkit-gradient(linear,left top,left bottom,from(#FF0000),to(pink)) ;
+}
+#myForm #addCart:hover{
+	box-shadow: 0 0 12px #000000;
+	opacity: 1;
+	font-weight: 800;
+	text-decoration:none;
+	}
+	/*璐拱鎿嶄綔妯″潡缁撴潫*/
+	
+	/*骞垮憡鍐呭鏍峰紡寮�濮�*/
+#others{
+	width: 100%;
+	height: 23%;
+	text-align: center;
+	margin-top: 1%;
+	padding: 0;
+	overflow: hidden;
+
+}
+#others ul{
+	width: 100%;
+	height: 100%;
+	margin-left: -28px;
+}
+#others ul li{
+	width: 24%;
+	height: 100%;
+	list-style: none;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-left: 1%;
+	float: left;	
+}
+#others ul li img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	transition: all 500ms linear 0;
+}
+#others ul li:hover img{
+	width: 105%;
+	height: 105%;
+}
+#others ul li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.details_others_tips{
+	width: 100%;
+	height: 30%;
+	opacity: 0.8;
+	transition: all 500ms linear 0;
+}
+.details_others_tips .title{
+	width: 100%;
+	height: 70%;
+	font-size: 1em;
+}
+.details_others_tips .price{
+	width: 30%;
+	height: 40%;
+	font-size: 1.5em;
+	font-weight: 800;
+	float: left;
+	color: red;	
+	line-height: 100%;
+}
+.details_others_tips .danwei{
+	width: 30%;
+	height: 25%;
+	float: left;
+	font-size: 1.1em;
+	font-weight: 400;
+	color: white;
+	margin-bottom: -30%;	
+}
+#others ul li .details_others_tips{
+	width: 100%;
+	height: 30%;
+}
+#others ul li:hover .details_others_tips{
+	margin-top: -55%;
+	background:rgba(0, 0, 0, 0.9) none repeat scroll 0 0 !important;
+	filter:Alpha(opacity=90);
+	background:#000000;
+}
+/*骞垮憡鍐呭鏍峰紡缁撴潫*/
+
+/*璇勮鍧楁牱寮忓紑濮�*/
+.details_rol_title{
+	width: 100%;
+	height: 10%;
+	margin: 0;
+}
+.details_rol_details{
+	width: 100%;
+	height: 90%;
+}
+.details_rol_details ul{
+	width: 100%;
+	height: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.details_rol_details ul li{
+	width: 100%;
+	height: 28%;
+	list-style: none;
+	margin-bottom:10px;
+	
+}
+.details_rol_details ul li a{
+	box-shadow: 0 0 5px #000000;
+	font-size: 1.5em;	
+	border-radius: 5px;
+	background-color: #CCCCCC;
+	color: #7B7B7B;
+	text-decoration: none;
+	transition: all 300ms linear 0;
+}
+.details_rol_details ul li a:hover{
+	opacity: 0.7;
+}
+
+.comments_content{
+	width: 100%;
+	height: 70%;
+	overflow: auto;
+	border-bottom: 1px solid #CCCCCC;
+}
+.cus_info{
+	width: 100%;
+	height: 30%;
+	border-bottom: 1px solid #CCCCCC;
+}
+.cus_name{
+	color: #000000;
+	font-size: 1.5em;
+	font-weight: 800;
+}
+.comments_time{
+	color: #CCCCCC;
+	font-size: 1.2em;
+}
+.goods_score{
+	color:red;
+	font-size:1.6em;
+	float:right;	
+}
+
+
+.details_rol_title{
+	width: 100%;
+	height: 10%;
+	border-bottom: 1px solid #CCCCCC;
+}
+.details_rol_details{
+	width: 100%;
+	height: 90%;
+	border-radius: 10px;
+	padding: 10px;
+	overflow: auto;
+}
+

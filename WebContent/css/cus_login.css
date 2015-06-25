@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+#p
+{
+	text-align:center;
+	color:#060;
+	font-size:30px;
+	text-shadow:#063 5px 5px 5px;
+}
+#login
+{
+	width:702px;
+	height:452px;
+	margin:0 auto;
+	background-repeat:no-repeat;
+	background-image:url(http://ziti.cndesign.com/2010/7/3120100731E8BEE634161679672187500.jpg);
+	background-size:702px 452px;
+}
+.input{
+	width:200px;
+	height:20px;
+	border-radius:5px;
+	box-shadow:0 0 5px #000000;
+}
+.input:hover,.input:focus{
+	box-shadow:0 0 10px yellow;
+}
+#login #loginIn
+{
+	width:300px;
+	height:200px;
+	padding-left:200px;
+	padding-top:0px;
+	
+}
+#checkCodeImg{
+	margin-top:5px;
+	margin-left:30px;
+	margin-bottom:10px;
+	float:left;
+}
+#checkCodeImg{
+	cursor:pointer;	
+}
+#changeCode{
+	width:auto;
+	height:30px;
+	margin-top:5px;
+	line-height:30px;
+	font-size:14px;
+	float:left;	
+	margin-bottom:10px;
+}
+#changeCode{
+	color:white;
+	
+}
+.loginSubmit{
+	width:100px;
+	height:30px;
+	margin-left:10px;
+	border-radius:5px;	
+	transition:all 200ms linear 0;
+}
+.loginSubmit:hover{
+	box-shadow:0 0 10px #000000;	
+	background-color:#CCCCCC;
+	cursor:pointer;
+}
+#loginIn a{
+	margin-left:20px;
+	color: blue;
+	font-weight: 800;
+}
+#loginIn a:hover{
+	color:white;
+}
